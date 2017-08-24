@@ -3,10 +3,13 @@
 	url = https://github.com/ANTS-Framework/generic_motd.git
 [submodule "roles/generic_admins"]
 	path = roles/generic_admins
-	url = git@github.com:ANTS-Framework/generic_admins.git
+	url = https://github.com/ANTS-Framework/generic_admins.git
 [submodule "roles/linux_adbinding"]
 	path = roles/linux_adbinding
-	url = git@github.com:ANTS-Framework/linux_adbinding.git
+	url = https://github.com/ANTS-Framework/linux_adbinding.git
 [submodule "roles/linux_defaultsoftware"]
 	path = roles/linux_defaultsoftware
-	url = git@github.com:ANTS-Framework/linux_defaultsoftware.git
+	url = https://github.com/ANTS-Framework/linux_defaultsoftware.git
+[submodule "roles/linux_localusers"]
+	path = roles/linux_localusers
+	url = https://github.com/ANTS-Framework/linux_localusers.git
