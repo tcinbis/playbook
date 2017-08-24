@@ -1,3 +1,6 @@
 [submodule "roles/generic_motd"]
 	path = roles/generic_motd
 	url = https://github.com/ANTS-Framework/generic_motd.git
+[submodule "roles/generic_admins"]
+	path = roles/generic_admins
+	url = git@github.com:ANTS-Framework/generic_admins.git
