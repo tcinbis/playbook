@@ -7,3 +7,6 @@
 [submodule "roles/linux_adbinding"]
 	path = roles/linux_adbinding
 	url = git@github.com:ANTS-Framework/linux_adbinding.git
+[submodule "roles/linux_defaultsoftware"]
+	path = roles/linux_defaultsoftware
+	url = git@github.com:ANTS-Framework/linux_defaultsoftware.git
