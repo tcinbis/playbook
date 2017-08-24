@@ -25,3 +25,15 @@
 [submodule "roles/linux_systemautoupdate"]
 	path = roles/linux_systemautoupdate
 	url = https://github.com/:ANTS-Framework/linux_systemautoupdate.git
+[submodule "roles/macos_munki_localonlymanifest"]
+	path = roles/macos_munki_localonlymanifest
+	url = https://github.com/ANTS-Framework/macos_munki_localonlymanifest.git
+[submodule "roles/macos_munki_condition"]
+	path = roles/macos_munki_condition
+	url = https://github.com/ANTS-Framework/macos_munki_condition.git
+[submodule "roles/macos_ssh"]
+	path = roles/macos_ssh
+	url = https://github.com/ANTS-Framework/macos_ssh.git
+[submodule "roles/macos_sus"]
+	path = roles/macos_sus
+	url = https://github.com/ANTS-Framework/macos_sus.git
