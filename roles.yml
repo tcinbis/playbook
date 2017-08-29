@@ -5,3 +5,4 @@
 - src: ANTS-Framework.macos_munki_localonlymanifest
 - src: ANTS-Framework.macos_ssh
 - src: ANTS-Framework.macos_sus
+- src: ANTS-Framework.macos_profile
