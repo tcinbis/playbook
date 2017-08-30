@@ -9,7 +9,7 @@ Great, what do I do with this?
 `Install ANTS <https://github.com/ANTS-Framework/ants>`__ if you haven't already and go through the first steps.
 
 Once you're done, `duplicate the repository <https://help.github.com/articles/duplicating-a-repository/>`__
-(you might want to make it private later on) and update your client configuration to point to it.
+(you might want to make it private later on) and update your host configuration to point to it.
 
 Edit main.yml.
 
@@ -28,7 +28,7 @@ We included a roles.yml in your playbook so you can add roles besides the generi
 
 .. code-block::
 
-    ansible-galaxy install -r roles.yml --roles-path /path/to/your/roles/dir
+    ansible-galaxy install -r roles.yml --roles-path roles/
 
 Update Roles
 ------------
@@ -42,7 +42,7 @@ the latest version of any role using the following command:
 .. code-block::
 
     # Notice the -f flag
-    ansible-galaxy install -r roles.yml -f --roles-path /path/to/your/roles/dir
+    ansible-galaxy install -r roles.yml -f --roles-path roles/
 
 This will pull the latest version of all roles, that are listed in this file.
 All our roles in the master branch are stable, but you might want to 
@@ -51,3 +51,13 @@ do this in a testing branch to see how the changes behave in your environment.
 You also might want to check out individual roles by tags or branches or to write your own roles.yml file.  
 For more information on the file syntax, have a look at the
 `official docs by ansible <http://docs.ansible.com/ansible/latest/galaxy.html#installing-multiple-roles-from-a-file>`__.
+
+What is this version file?
+---------------------------
+It is a file containing the version of your playbook as a single string. E.g.: ``v1.0``
+
+The version file is used to determine which version of your policies is run on which host.
+This helps in detecting problems early on when a host has difficulties connecting to your
+git repo or when a host is moved to a different branch with a different version by accident.
+
+The ants client has a ``-p`` option that will print the content of the version file or ``v0.0`` if no file has been found.
