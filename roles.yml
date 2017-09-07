@@ -2,6 +2,7 @@
 
 # Generic roles
 - src: ANTS-Framework.generic_motd
+- src: ANTS-Framework.generic_admins
 
 # linux roles
 - src: ANTS-Framework.linux_adbinding
