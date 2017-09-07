@@ -1,6 +1,12 @@
 ---
 
+# Generic roles
 - src: ANTS-Framework.generic_motd
+
+# linux roles
+- src: ANTS-Framework.linux_adbinding
+
+# macOS roles
 - src: ANTS-Framework.macos_munki_condition
 - src: ANTS-Framework.macos_munki_localonlymanifest
 - src: ANTS-Framework.macos_ssh
