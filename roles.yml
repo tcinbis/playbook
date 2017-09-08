@@ -6,6 +6,7 @@
 
 # linux roles
 - src: ANTS-Framework.linux_adbinding
+- src: ANTS-Framework.linux_defaultsoftware
 
 # macOS roles
 - src: ANTS-Framework.macos_munki_condition
