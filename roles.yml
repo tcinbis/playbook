@@ -1,4 +1,6 @@
 ---
+# Usage:
+# ansible-galaxy install -r roles.yml -f --roles-path roles/
 
 # Generic roles
 - src: ANTS-Framework.generic_motd
